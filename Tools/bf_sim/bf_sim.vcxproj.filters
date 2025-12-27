@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{38ec33dd-c917-4d4c-b752-a6528c2f2925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sim">
+      <UniqueIdentifier>{7b1ce32d-9f52-4ac0-9ab0-4323cbc70640}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="..\..\Dependencies\UI\imconfig.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imgui.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imgui_impl_glfw.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imgui_impl_opengl3.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imgui_impl_opengl3_loader.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imgui_internal.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imstb_rectpack.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imstb_textedit.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imstb_truetype.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="bfsim.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\UI\imgui_stdlib.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="..\..\Dependencies\UI\imgui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\UI\imgui_demo.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\UI\imgui_draw.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\UI\imgui_impl_glfw.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\UI\imgui_impl_opengl3.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\UI\imgui_tables.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\UI\imgui_widgets.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="bfsim.cpp">
+      <Filter>Sim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\UI\imgui_stdlib.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

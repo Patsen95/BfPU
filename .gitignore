@@ -1,0 +1,23 @@
+### Common
+.vs
+
+
+### Compilers
+# bfasm
+/Compiler/bfasm/Debug
+/Compiler/bfasm/.vs
+/Compiler/bfasm/bfasm/Debug
+/Compiler/bfasm/bfasm.vcxproj.user
+
+### Tools
+# BrainFuck sim
+/Tools/bf_sim/.vs
+/Tools/bf_sim/x64
+/Tools/bf_sim/bf_sim.vcxproj.user
+
+
+### VM
+
+
+### Docs
+bfpu_doc.odt
